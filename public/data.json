@@ -6,7 +6,7 @@
     "playerType": "Wicketkeeper-Batsman",
     "bowlingStyle": "Right-arm Off Break",
     "battingStyle": "Right-hand Bat",
-    "price": 8500000
+    "price": 500
   },
   {
     "playerName": "Najmul Hossain Shanto",
@@ -15,7 +15,7 @@
     "playerType": "Batsman",
     "bowlingStyle": "Right-arm Off Break",
     "battingStyle": "Left-hand Bat",
-    "price": 7500000
+    "price": 400
   },
   {
     "playerName": "Towhid Hridoy",
@@ -24,7 +24,7 @@
     "playerType": "Batsman",
     "bowlingStyle": "Right-arm Off Break",
     "battingStyle": "Right-hand Bat",
-    "price": 6500000
+    "price": 400
   },
   {
     "playerName": "Mehidy Hasan Miraz",
@@ -33,7 +33,7 @@
     "playerType": "All-Rounder",
     "bowlingStyle": "Right-arm Off Break",
     "battingStyle": "Right-hand Bat",
-    "price": 9000000
+    "price": 450
   },
   {
     "playerName": "Shakib Al Hasan",
@@ -42,7 +42,7 @@
     "playerType": "All-Rounder",
     "bowlingStyle": "Slow Left-arm Orthodox",
     "battingStyle": "Left-hand Bat",
-    "price": 10000000
+    "price": 600
   },
   {
     "playerName": "Mustafizur Rahman",
@@ -51,7 +51,7 @@
     "playerType": "Bowler",
     "bowlingStyle": "Left-arm Fast Medium",
     "battingStyle": "Left-hand Bat",
-    "price": 8000000
+    "price": 550
   },
   {
     "playerName": "Taskin Ahmed",
@@ -60,7 +60,7 @@
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm Fast",
     "battingStyle": "Right-hand Bat",
-    "price": 7500000
+    "price": 520
   },
   {
     "playerName": "Rishad Hossain",
@@ -69,7 +69,7 @@
     "playerType": "All-Rounder",
     "bowlingStyle": "Right-arm Leg Break",
     "battingStyle": "Right-hand Bat",
-    "price": 6000000
+    "price": 350
   },
   {
     "playerName": "Tanzid Hasan",
@@ -78,7 +78,7 @@
     "playerType": "Batsman",
     "bowlingStyle": "Right-arm Off Break",
     "battingStyle": "Left-hand Bat",
-    "price": 5500000
+    "price": 350
   },
   {
     "playerName": "Jaker Ali",
@@ -87,6 +87,6 @@
     "playerType": "Wicketkeeper-Batsman",
     "bowlingStyle": "Right-arm Medium",
     "battingStyle": "Right-hand Bat",
-    "price": 5000000
+    "price": 350
   }
 ]

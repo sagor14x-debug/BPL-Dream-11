@@ -1,11 +1,83 @@
-import React from 'react';
+// import React, { useState, type Dispatch, type SetStateAction } from 'react';
+// import type { Iplayer } from '../../assets/types/player';
+// import SelectedPlayersCard from './SelectedPlayersCard';
 
-const SelectedPlayers = () => {
-    return (
-        <div>
-            Selected Players
-        </div>
-    );
+
+// interface ISelectedPlayerProps{
+//   coin: number;
+//   setCoin: Dispatch<SetStateAction<number>>; 
+//   selectedPlayers: Iplayer[];
+//   setSelectedPlayers: Dispatch<SetStateAction<Iplayer[]>>;
+// }
+
+// const selectedPlayers = ({
+//     selectedPlayers,
+//     setSelectedPlayers,
+//     coin,
+//     setCoin,
+// }: ISelectedPlayerProps) => {
+//     console.log(selectedPlayers, "from selected players  ");
+
+
+// return (
+//   <div className="grid grid-cols-1 gap-7 mt-6">
+//     {selectedPlayers.map((player: Iplayer) => {
+//       return <SelectedPlayersCard
+//      coin = {coin}
+//      setCoin = {setCoin}
+//      player = {player}
+//      selectedPlayers = {selectedPlayers}
+//      setSelectedPlayers = {setSelectedPlayers} />
+//     })}
+//   </div>
+// );
+
+
+
+// export default SelectedPlayers;
+
+
+
+
+import React, { type Dispatch, type SetStateAction } from "react";
+import type { Iplayer } from "../../assets/types/player";
+import SelectedPlayersCard from "./SelectedPlayersCard";
+
+interface ISelectedPlayerProps {
+  coin: number;
+  setCoin: Dispatch<SetStateAction<number>>;
+  selectedPlayers: Iplayer[];
+  setSelectedPlayers: Dispatch<SetStateAction<Iplayer[]>>;
+}
+
+const SelectedPlayers = ({
+  selectedPlayers,
+  setSelectedPlayers,
+  coin,
+  setCoin,
+}: ISelectedPlayerProps) => {
+  console.log(selectedPlayers, "from selected players");
+
+
+  if (selectedPlayers.length === 0) {
+   return <h2 className="font-bold text-3xl my-10 text-center text-red-500">No selected player</h2>
+  }
+
+  return (
+    <div className="grid grid-cols-1 gap-7 mt-6">
+      {selectedPlayers.map((player: Iplayer, ind: number) => (
+        <SelectedPlayersCard
+          key={ind}
+          coin={coin}
+          setCoin={setCoin}
+          player={player}
+          selectedPlayers={selectedPlayers}
+          setSelectedPlayers={setSelectedPlayers}
+        />
+      ))}
+    </div>
+  );
 };
 
 export default SelectedPlayers;
+
