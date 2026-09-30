@@ -1,5 +1,5 @@
-import React, { use, useState, type Dispatch, type SetStateAction } from "react";
-import AvailablePlayers from "./Availableplayers";
+import { use, useState, type Dispatch, type SetStateAction } from "react";
+import AvailablePlayers from "./AvailablePlayers";
 import type { Iplayer } from "../../assets/types/player";
 import SelectedPlayers from "./SelectedPlayers";
 
@@ -36,9 +36,6 @@ const Players = ({ playersPromise, coin, setCoin }: PlayersProps) => {
           className = {`btn ${buttonType === "selected" ? "btn-success" : "" } rounded-r-none`}>Selected</button>
         </div>
       </div>
-
-      {/* {buttonType === "available" ? (<AvailablePlayers players={players} coin={coin} setCoin={setCoin} />): (<SelectedPlayers/>)}
-    </div> */}
 
 
     {buttonType === "available" ? (

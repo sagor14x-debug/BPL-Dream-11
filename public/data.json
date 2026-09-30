@@ -1,7 +1,7 @@
 [
   {
     "playerName": "Litton Das",
-    "playerimg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqD_XVFnPI-gDPxEXPFgK_5tGq63D6ViRWGb3FIfEoIA&s=10",
+    "playerimg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoSvrRSnRh0zi9GVuZlDwz50U0fTwdH9nqWB10ZY4IEw&s=10",
     "origin": "Bangladesh",
     "playerType": "Wicketkeeper-Batsman",
     "bowlingStyle": "Right-arm Off Break",
@@ -10,7 +10,7 @@
   },
   {
     "playerName": "Najmul Hossain Shanto",
-    "playerimg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6OCgWh9M3g6ENXiXaNbLq2rkyznRxrS1djwD47jk_Rw&s=10",
+    "playerimg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF-xtC4WrvKf394Lj5JEDIglvqmc1PNSXmEtnU8FrCrQ&s=10",
     "origin": "Bangladesh",
     "playerType": "Batsman",
     "bowlingStyle": "Right-arm Off Break",
@@ -19,7 +19,7 @@
   },
   {
     "playerName": "Towhid Hridoy",
-    "playerimg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTou9v8WVZJXNG6bN8_hBQkJH-728eshLKVjwfhsKPoEA&s=10",
+    "playerimg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROqioifLIwtDyjp2ntEfbt0Tdwpf0YnnMr_cno4OqBmQ&s",
     "origin": "Bangladesh",
     "playerType": "Batsman",
     "bowlingStyle": "Right-arm Off Break",
@@ -83,6 +83,15 @@
   {
     "playerName": "Jaker Ali",
     "playerimg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkAHd3oQpDqX82RX59ehoVQdtMGIdWfc_b45lMu3oKUg&s=10",
+    "origin": "Bangladesh",
+    "playerType": "Wicketkeeper-Batsman",
+    "bowlingStyle": "Right-arm Medium",
+    "battingStyle": "Right-hand Bat",
+    "price": 350
+  },
+  {
+    "playerName": "Anamul Haque Bijoy",
+    "playerimg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQIaZzREeQAWc86In09C9WkdSo9TL8d_IG7PAJuMdTzg&s=10",
     "origin": "Bangladesh",
     "playerType": "Wicketkeeper-Batsman",
     "bowlingStyle": "Right-arm Medium",
